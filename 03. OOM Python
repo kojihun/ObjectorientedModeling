@@ -1,1 +1,35 @@
-
+*내장 자료형
+ -숫자 자료형: int, float, complex
+ -순차 자료형: list, tuple, range
+ -텍스트 순차 자료형: str
+ -이진 순차 자료형: bytes, bytearray
+ -집합 자료형: set, frozenset
+ -사상 자료형: dict
+ 
+*numbers 모듈
+ -int: numbers.Integral 클래스(bool: int의 서브클래스,truth testing procedure사용하여 True/False로 변환)
+ -float: numbers.Real 클래스
+ -complex: numbers.Complex클래스
+ 
+*순차 자료형
+ -0 이상 수에 의해 색인되는 유한 순서 집합
+ -불변 순차
+  -문자열: 유니코드 코드 포인트를 나타내는 일련의 값
+  -튜플: 괄호 안에 쉼표로 임의의 파이썬 객체 구분. tuple() 또는 ()를 사용하여 생성
+  -바이트: 0 <= x < 256 사이의 정수로 표현되는 8비트 바이트, 불변 배열
+ -가변 순차
+  -리스트: 대괄호 안에 쉼표로 임의의 파있너 객체 구분. list() 또는 []를 사용하여 생성
+  -바이트 배열
+  
+*집합 자료형
+ -집합: 가변 집합. set() 생성자 사용하여 만들고 add() 사용하여 추가 가능.
+ -냉동 집합: frozenset() 생성자를 사용하여 만듦.
+  
+*사상 자료형
+  -사전(Dictionaries)
+   -dict() 생성자 또는 {} 사용
+   -거의 모든 값을 색인으로 사용하는 객체의 유한 집합
+   -가변 객체 
+ 
+*순차 자료형
+ -list, tuple, range
