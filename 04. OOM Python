@@ -1,1 +1,35 @@
-
+*list 자료형
+-생성방법
+ -빈 리스트를 나타내는 대괄호 사용: []
+ -대괄호를 쉼표로 구분: [a], [a,b,c] -> ([a], [a,b,c]) 튜플 생성
+ -리스트 해석 사용: [x for x in iterable]
+ -list 생성자 사용: list() or list(iterable)
+ 
+*행렬 표현
+ -리스트를 내포하여 임의의 행렬 표현 가능 
+ -zip(*iterables): 각 반복자의 원소를 차례대로 모아서 반복자를 만드는 함수, 가장 적은 반복자의 원소 개수만큼 반복자를 만듦
+ 
+*tuple 자료형
+-튜플 생성 방법
+ -빈 튜플을 나타내는 괄호 사용:()
+ -싱글턴 튜플 생성을 위해 쉼표를 뒤에 붙임: a, or (a,)
+ -쉼표로 항목 구분: a, b, c or (a,b,c)
+ -tuple()생성자 사용: tuple() or tuple(iterable)
+ -튜플안에는 동일한 자료형이 아니여도 상관 없음
+ 
+*range 자료형
+ -range(stop)
+ -range(start, stop[, step])
+ 
+ *텍스트 순차 자료형 str
+ -str객체
+  -문자열을 다룸
+  -Python 3.x에서 문자열은 유니코드 코드 포인트의 불변 순차임
+ -생성방법
+  -작은 따옴표 이용
+  -큰 따옴표 이용
+  -삼중 따옴표 이용
+ -생성자
+  -class str(object=")
+  -class str(object=", encoding='utf-8', errors='strict')
+  
