@@ -1,1 +1,19 @@
-
+*roslaunch
+ -여러 개의 ROS 노드 시작을 자동화하는 명령행 도구
+ -launch 파일: XML형식의 시작 파일(확장자: launch)
+  -roscore가 실행되지 않았을 경우 자동으로 roscore를 먼저 실행한 후 ROS노드를 실행함
+  -<launch> 태그: ROS 시작 파일의 시작/끝을 알림
+  -<node> 태그: ROS노드 지정
+    -name 애트리뷰트: ROS노드 이름
+    -pkg 애트리뷰트: ROS패키지 이름
+    -type 애트리뷰트: 실행파일 이름
+    
+*터틀봇 키보드 제어
+ -roscore
+ -roslaunch turtlebot_gazebo turtlebot_world.launch
+ -roslaunch turtlebot_teleop keyboard_teleop.launch
+ 
+*Gazebo
+ -3차원 로봇 시뮬레이터
+ -화면 제어: 마우스 휠 스크롤, 쉬프트 키 조합으로 줌인/줌아웃, 패닝등 가능
+ 
