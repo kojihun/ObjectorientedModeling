@@ -1,1 +1,6 @@
+*assert
+ -방어적 프로그래밍시 입력 값의 범위를 확인하는데 유용
+ -매개변수가 원하는 범위안에 존재하는지 확인하는데 사용
+ -assert_stmt ::= "assert" expression ["," expression]
+
 
